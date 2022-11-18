@@ -1,0 +1,49 @@
+@import url("https://cdn.syncfusion.com/ej2/20.3.56/bootstrap5.css");
+
+.container{
+  margin: 5%;
+}
+
+.container #commentsMention {
+  min-height: 100px;
+  border: 1px solid #D7D7D7;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 14px;
+  width: 600px;
+}
+
+.container .default-size {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+div#commentsMention[placeholder]:empty:before {
+  content: attr(placeholder);
+  color: #555;
+}
+
+.mention-listItems {
+  padding-left: 12px;
+  vertical-align: middle;
+  width: 80%;
+}
+
+#commentsMention_popup .e-dropdownbase .e-list-item {
+  line-height: 25px;
+  text-indent: 8px;
+}
+
+.empImage {
+    width: 44px;
+    float: left;
+}
+
+.person {
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+#commentsMention_popup .e-dropdownbase .e-list-item * {
+  display: block;
+}
